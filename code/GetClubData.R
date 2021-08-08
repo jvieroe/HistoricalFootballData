@@ -6,6 +6,7 @@ rm(list=ls())
 library(tidyverse)
 library(magrittr)
 library(janitor)
+library(openxlsx)
 
 setwd("/Users/jeppeviero/Dropbox/03 Football/HistoricalFootballData")
 
@@ -161,11 +162,11 @@ tabyl(global_df$home_win)
 # ---------------------------------------------------------
 # ----- R
 save(global_df,
-     file = "data/bettingData.Rdata")
+     file = "data/ClubData.Rdata")
 
 # ----- Excel
 write.xlsx(global_df,
-           file = "data/bettingData.xlsx")
+           file = "data/ClubData.xlsx")
 
 
 # q()
