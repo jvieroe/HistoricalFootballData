@@ -1,5 +1,10 @@
 # ---------------------------------------------------------
 # Prelims
+
+# https://stackoverflow.com/questions/48006958/download-all-files-on-a-webpage-with-r
+# https://stackoverflow.com/questions/33790052/download-all-files-from-a-folder-on-a-website
+# https://stackoverflow.com/questions/39246739/download-multiple-files-using-download-file-function
+
 # ---------------------------------------------------------
 rm(list=ls())
 
@@ -70,8 +75,8 @@ league_seq <- c('E0', # English Premier League
                 'N1', # Dutch Eresdivisie
                 'B1', # Belgian Jupiler League
                 'P1', # Portuguese La Liga
-                'T1', # Turkish Superliga
-                'G1' # Greek Ethniki Katigoria
+                'T1' # Turkish Superliga
+                #'G1' # Greek Ethniki Katigoria
 )
 
 # league_seq <- c('E0', # English Premier League
